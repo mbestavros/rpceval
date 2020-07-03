@@ -3,6 +3,7 @@ members = [
     "measure",
 
     "tcp",
+    "tcp-tokio",
 ]
 
 [profile.release]
