@@ -8,6 +8,7 @@ members = [
     "tcp-tokio-native-tls",
 
     "http-warp-rustls",
+    "http-rocket-rustls",
 ]
 
 [profile.release]
