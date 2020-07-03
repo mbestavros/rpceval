@@ -6,6 +6,8 @@ members = [
     "tcp-tokio",
     "tcp-tokio-rustls",
     "tcp-tokio-native-tls",
+
+    "http-warp-rustls",
 ]
 
 [profile.release]
