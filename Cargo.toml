@@ -11,6 +11,7 @@ members = [
     "http-rocket-rustls",
 
     "jsonrpc-http",
+    "jsonrpc-tcp",
 ]
 
 [profile.release]
