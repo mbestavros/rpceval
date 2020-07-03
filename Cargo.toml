@@ -1,5 +1,7 @@
 [workspace]
-members = []
+members = [
+    "measure",
+]
 
 [profile.release]
 incremental = false
