@@ -9,6 +9,8 @@ members = [
 
     "http-warp-rustls",
     "http-rocket-rustls",
+
+    "jsonrpc-http",
 ]
 
 [profile.release]
