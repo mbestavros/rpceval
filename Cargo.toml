@@ -4,6 +4,7 @@ members = [
 
     "tcp",
     "tcp-tokio",
+    "tcp-tokio-rustls",
 ]
 
 [profile.release]
