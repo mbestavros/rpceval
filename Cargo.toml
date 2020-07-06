@@ -12,9 +12,14 @@ members = [
 
     "jsonrpc-http",
     "jsonrpc-tcp",
+
+    "cborrpc-rustls",
 ]
 
 [profile.release]
 incremental = false
 codegen-units = 1
 lto = true
+
+[patch.crates-io]
+serde_cbor = { git = 'https://github.com/npmccallum/cbor', branch='master' }
